@@ -1,0 +1,7 @@
+extend-diff-ignore=\.devcontainer/.*
+extend-diff-ignore=\.gitignore
+extend-diff-ignore=\.pytest_cache/.*
+extend-diff-ignore=dbus_next.egg-info/.*
+tar-ignore=.*
+tar-ignore=*.egg-info
+tar-ignore=*.pyc

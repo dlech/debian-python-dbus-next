@@ -1,0 +1,17 @@
+Source: python-dbus-next
+Section: unknown
+Priority: optional
+Maintainer: David Lechner <david@ablerobots.com>
+Build-Depends: debhelper-compat (= 12), dbus, dh-python, python3-all,
+    python3-setuptools, python3-pytest, python3-pytest-asyncio, python3-pytest-timeout
+Standards-Version: 4.5.0
+Homepage: <https://github.com/altdesktop/python-dbus-next>
+
+Package: python3-dbus-next
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Suggests: python3-gi
+Description: The next great DBus library for Python
+ Python library for DBus that aims to be a fully featured high level library
+ primarily geared towards integration of applications into Linux desktop and
+ mobile environments.

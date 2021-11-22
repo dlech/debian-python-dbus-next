@@ -1,0 +1,6 @@
+.debhelper/
+python3-dbus-next/
+debhelper-build-stamp
+files
+*.debhelper
+*.substvars

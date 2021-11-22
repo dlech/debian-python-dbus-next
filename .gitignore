@@ -124,3 +124,6 @@ dmypy.json
 
 # vim
 *.swp
+
+# debian packaging
+.pybuild/
