@@ -9,3 +9,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends dbus \
     python3-all python3-setuptools python3-pytest python3-pytest-asyncio python3-pytest-timeout \
     devscripts debhelper dh-python git-buildpackage dput bash-completion
+
+COPY devscripts.conf /etc/
+COPY dput.cf /etc/
+COPY git-to-deb.sh /etc/profile.d/
